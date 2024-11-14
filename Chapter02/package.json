@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "live-server",
+    "deploy": "now && now alias",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
+    "jest": "23.6.0",
+    "now": "12.0.1",
+    "standard": "12.0.1"
+  },
+  "standard": {
+    "globals": [
+      "expect",
+      "test",
+      "beforeEach",
+      "describe"
+    ]
+  }
+}
